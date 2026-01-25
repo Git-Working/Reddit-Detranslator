@@ -1,0 +1,23 @@
+{
+  "name": "Reddit-Detranslator",
+  "description": "This should detranslate Reddit into English",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "declarativeContent",
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "page.html",
+    "default_icon": {
+      "16": "Reddit.png"
+    }
+  },
+  "host_permissions": ["*://*.reddit.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
