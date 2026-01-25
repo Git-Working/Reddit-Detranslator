@@ -1,4 +1,4 @@
 # Reddit-Detranslator-
 
 
-![Demo](images/Edited-GIF.gif)
+![Demo](img\Edited-GIF.gif)
