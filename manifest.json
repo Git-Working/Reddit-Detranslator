@@ -3,9 +3,9 @@
   "description": "This should detranslate Reddit into English",
   "version": "1.0",
   "icons": {
-    "16": "img/Reddit.png",
-    "48": "img/Reddit.png",
-    "128": "img/Reddit.png"
+    "16": "img/ExtensionPic.png",
+    "48": "img/ExtensionPic.png",
+    "128": "img/ExtensionPic.png"
   }, 
   "manifest_version": 3,
   "permissions": [
@@ -18,7 +18,7 @@
   "action": {
     "default_popup": "page.html",
     "default_icon": {
-      "16": "img/Reddit.png"
+      "16": "img/popupPic.png"
     }
   },
   "host_permissions": ["*://*.reddit.com/*"],

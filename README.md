@@ -20,3 +20,11 @@ The Extension will **only** work on <span style="color:#ff4500">reddit.com</span
 - Latin American (Spanish)
 - Portuguese
 - Spanish
+
+
+Currently there is **way** to download this Extension on the Google Store.  
+If you would like to use this Extension in it's current state:   
+1. Visit <a href="chrome://extensions/">this Site</a>
+
+
+<a target="_blank" href="https://icons8.com/icon/Tc26eO9gotX6/translate">Übersetzen</a> Icon von <a target="_blank" href="https://icons8.com">Icons8</a>
