@@ -2,6 +2,11 @@
   "name": "Reddit-Detranslator",
   "description": "This should detranslate Reddit into English",
   "version": "1.0",
+  "icons": {
+    "16": "img/Reddit.png",
+    "48": "img/Reddit.png",
+    "128": "img/Reddit.png"
+  }, 
   "manifest_version": 3,
   "permissions": [
     "scripting",
@@ -13,7 +18,7 @@
   "action": {
     "default_popup": "page.html",
     "default_icon": {
-      "16": "Reddit.png"
+      "16": "img/Reddit.png"
     }
   },
   "host_permissions": ["*://*.reddit.com/*"],

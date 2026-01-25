@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const checkBox = document.getElementById("ToggleSlider");
 
@@ -43,13 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-chrome.runtime.onInstalled.addListener((detail) => {
-  if(details.reason == "install"){
-    chrome.tabs.create({
-      url: "welcome.html"
-    });
-  }
-});
+
 
 
 

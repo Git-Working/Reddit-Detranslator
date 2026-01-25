@@ -5,7 +5,18 @@
 
 
 
+chrome.runtime.onInstalled.addListener((details) => {
+  if(details.reason == "install"){
+    chrome.storage.sync.set({ 
+      selection: "sel",
+      checkBoxState: true 
+    });
 
+    // chrome.tabs.create({
+    //   url: "welcome.html"
+    // });
+  }
+});
 
 
 
@@ -30,27 +41,3 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 });
 
 
-
-
-
-
-
-
-/* chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  if (changeInfo.status === 'complete' && tab.url) {
-    chrome.storage.sync.get(['checkBoxState'], (result) => {
-
-      chrome.storage.sync.get(['selection'], (result) => {
-        dropdown.value = result.selection; 
-      });
-      
-      if (String(result.checkBoxState) === "true" && tab.url.includes("reddit.com") && tab.url.includes("/?tl=de")) {
-        console.log("ifcheck", result.checkBoxState); 
-        let newWebUrl = tab.url.replace("/?tl=de", "");
-        chrome.tabs.update(tabId, { url: newWebUrl });
-        console.log("Redirect durchgeführt zu:", newWebUrl);    
-      }
-    });
-  }
-});
-*/ 
