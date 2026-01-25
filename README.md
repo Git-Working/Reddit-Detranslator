@@ -25,7 +25,7 @@ The Extension will **only** work on <span style="color:#ff4500">reddit.com</span
 Currently there is **no way** to download this Extension on the Google Store.  
 ### If you would like to use this Extension in it's current state, follow these Steps:   
 1. Download the Extension with the "img" folder and store it somewhere on your drive in **one** folder   
-2. Visit <a href="chrome://extensions/">this Site</a>
+2. Visit this Site: "chrome://extensions/" 
 3. Turn on the Developer Mode 
 4. Go to the top left and click "Load extracted extension"
 5. Select the folder you created in Step 1  
