@@ -1,7 +1,7 @@
 {
   "name": "Reddit-Detranslator",
-  "description": "This should detranslate Reddit into English",
-  "version": "1.0",
+  "description": "This Extension removes the '?tl=' tag from reddit",
+  "version": "1.07",
   "icons": {
     "16": "img/ExtensionPic.png",
     "48": "img/ExtensionPic.png",
