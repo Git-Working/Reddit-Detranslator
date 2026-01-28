@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const checkBox = document.getElementById("ToggleSlider");
 
-  // Laden
+  // Load
   chrome.storage.sync.get({ checkBoxState: false }, (result) => {
     checkBox.checked = result.checkBoxState;
     
   });
 
-  // Speichern
+  // Save
   checkBox.addEventListener('change', () => {
     chrome.storage.sync.set({ checkBoxState: checkBox.checked });
     // If checkboxState goes from unchecked to checked, reload page:     

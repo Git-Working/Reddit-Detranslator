@@ -2,8 +2,8 @@
 
 ### How to Use
 
-![Demo](img/GIF-Version-03.gif)
 
+<img src="img/GIF-Version-03.gif" width="1800">
 
 
 ***Status***: Should the Extension remove Reddits translation or not?
