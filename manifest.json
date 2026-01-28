@@ -9,9 +9,7 @@
   }, 
   "manifest_version": 3,
   "permissions": [
-    "scripting",
     "activeTab",
-    "declarativeContent",
     "tabs",
     "storage"
   ],
