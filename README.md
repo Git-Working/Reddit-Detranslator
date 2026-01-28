@@ -2,7 +2,7 @@
 
 ### How to Use
 
-![Demo](img/Edited-GIF.gif)
+![Demo](img/GIF-Version-03.gif)
 
 
 
